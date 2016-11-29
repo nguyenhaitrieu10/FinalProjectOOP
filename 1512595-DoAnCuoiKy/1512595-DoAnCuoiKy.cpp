@@ -154,8 +154,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             HDC hdc = BeginPaint(hWnd, &ps);
             // TODO: Add any drawing code that uses hdc here...
 
-			MyPaint(hdc);
-			Draw_Line();
+			//MyPaint(hdc);
+			//Draw_Line();
 
 
             EndPaint(hWnd, &ps);

@@ -29,9 +29,16 @@ void GraphicsImg::drawEllipse(int x, int y, float rx, float ry, RGBColor fill, R
 void GraphicsImg::drawPolygon(std::vector<SPoint> list, RGBColor fill, RGBColor stroke, float strokeWidth, float fillOpacity, float strokeOpacity)
 {
 	const unsigned char color[] = { stroke.m_red, stroke.m_green, stroke.m_blue };
-	CImg<int> e(5,1 2, 3 5, 55 14);
-	
-	m_graphics.draw_p
+	int *points = new int[2 * list.size()];
+	for (int i = 0; i < list.size(); i++)
+	{
+		points[i] = list.at(i).x;
+		points[i] = list.at(i).y;
+	}
+	CImg<int> _graph(points, 400);
+
+	m_graphics.draw_polygon(_graph, color, strokeOpacity);
+	delete []points;
 }
 void GraphicsImg::drawPolyline(std::vector<SPoint> list, RGBColor fill, RGBColor stroke, float strokeWidth, float fillOpacity, float strokeOpacity)
 {

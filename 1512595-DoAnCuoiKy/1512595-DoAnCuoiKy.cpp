@@ -1,9 +1,9 @@
 // 1512595-DoAnCuoiKy.cpp : Defines the entry point for the application.
 //
-
+#pragma once
 #include "stdafx.h"
 #include "1512595-DoAnCuoiKy.h"
-
+#include "Header.h"
 #define MAX_LOADSTRING 100
 
 // Global Variables:
@@ -127,6 +127,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 //  WM_DESTROY  - post a quit message and return
 //
 //
+
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     switch (message)
@@ -154,10 +155,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             HDC hdc = BeginPaint(hWnd, &ps);
             // TODO: Add any drawing code that uses hdc here...
 
-			//MyPaint(hdc);
-			//Draw_Line();
-
-
+			//drawLineCImg();
+			Draw_Line();
             EndPaint(hWnd, &ps);
         }
         break;

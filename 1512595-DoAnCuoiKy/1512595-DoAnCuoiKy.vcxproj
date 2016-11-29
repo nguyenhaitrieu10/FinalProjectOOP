@@ -148,12 +148,20 @@
     <ClInclude Include="1512595-DoAnCuoiKy.h" />
     <ClInclude Include="CImg.h" />
     <ClInclude Include="Figure.h" />
+    <ClInclude Include="FilledFigure.h" />
+    <ClInclude Include="GraphicsGDIplus.h" />
     <ClInclude Include="GraphicsImg.h" />
+    <ClInclude Include="Header.h" />
     <ClInclude Include="IGraphics.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RGBColor.h" />
+    <ClInclude Include="SCircle.h" />
+    <ClInclude Include="SEllipse.h" />
     <ClInclude Include="SLine.h" />
     <ClInclude Include="SPoint.h" />
+    <ClInclude Include="SPolygon.h" />
+    <ClInclude Include="SPolylines.h" />
+    <ClInclude Include="SRectangle.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Transform.h" />
@@ -161,8 +169,16 @@
   <ItemGroup>
     <ClCompile Include="1512595-DoAnCuoiKy.cpp" />
     <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="FilledFigure.cpp" />
+    <ClCompile Include="GraphicsGDIplus.cpp" />
     <ClCompile Include="GraphicsImg.cpp" />
+    <ClCompile Include="SCircle.cpp" />
+    <ClCompile Include="SEllipse.cpp" />
     <ClCompile Include="SLine.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SPolygon.cpp" />
+    <ClCompile Include="SPolylines.cpp" />
+    <ClCompile Include="SRectangle.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -177,6 +193,9 @@
   <ItemGroup>
     <Image Include="1512595-DoAnCuoiKy.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

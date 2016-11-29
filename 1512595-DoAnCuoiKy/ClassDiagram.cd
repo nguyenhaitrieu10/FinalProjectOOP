@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Figure" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAIAAAAAAAAAAIAAAAAAAAAEAAAAAAAIAAAAAY=</HashCode>
+      <FileName>Figure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsImg" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAIAAAAAAAAAAAAAAAIACAAAKgAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GraphicsImg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGraphics" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAKhAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>IGraphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SLine" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMAIAAAAUAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transform" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Transform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SRectangle" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAIAAAAARAAAAACAAAAAAAAAgAA=</HashCode>
+      <FileName>SRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilledFigure" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAIAAACEAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>FilledFigure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="cimg_library_suffixed::CImgDisplay" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AVJZJgTkQsjkoWwnYVRvyHhLBJmAQr01HQZqsNgIqGw=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgException" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAiAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgAbortException" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAIAAAAQAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgArgumentException" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgDisplayException" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgInstanceException" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgIOException" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::CImgWarningException" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;T&gt;" Collapsed="true">
+    <Position X="24.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;bool&gt;" Collapsed="true">
+    <Position X="26.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;unsigned char&gt;" Collapsed="true">
+    <Position X="29.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;char&gt;" Collapsed="true">
+    <Position X="22.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;signed char&gt;" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;unsigned short&gt;" Collapsed="true">
+    <Position X="28" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;short&gt;" Collapsed="true">
+    <Position X="31.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;unsigned int&gt;" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;int&gt;" Collapsed="true">
+    <Position X="14" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;cimg_uint64&gt;" Collapsed="true">
+    <Position X="15.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;cimg_int64&gt;" Collapsed="true">
+    <Position X="17.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAMAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;double&gt;" Collapsed="true">
+    <Position X="19.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAsAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;float&gt;" Collapsed="true">
+    <Position X="12.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAsAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;long double&gt;" Collapsed="true">
+    <Position X="21" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAsAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::type&lt;half&gt;" Collapsed="true">
+    <Position X="22.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAsAAEAABQAAAAAAAACAAAIAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;T, t&gt;" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, unsigned char&gt;" Collapsed="true">
+    <Position X="29.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, char&gt;" Collapsed="true">
+    <Position X="31.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, signed char&gt;" Collapsed="true">
+    <Position X="24.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, unsigned short&gt;" Collapsed="true">
+    <Position X="28" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, short&gt;" Collapsed="true">
+    <Position X="29.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, unsigned int&gt;" Collapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, int&gt;" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, cimg_uint64&gt;" Collapsed="true">
+    <Position X="31.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, cimg_int64&gt;" Collapsed="true">
+    <Position X="29.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, float&gt;" Collapsed="true">
+    <Position X="28" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;bool, double&gt;" Collapsed="true">
+    <Position X="26.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, char&gt;" Collapsed="true">
+    <Position X="24.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, signed char&gt;" Collapsed="true">
+    <Position X="22.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, unsigned short&gt;" Collapsed="true">
+    <Position X="15.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, short&gt;" Collapsed="true">
+    <Position X="21" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, unsigned int&gt;" Collapsed="true">
+    <Position X="19.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, int&gt;" Collapsed="true">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, cimg_uint64&gt;" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, cimg_int64&gt;" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, float&gt;" Collapsed="true">
+    <Position X="31.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned char, double&gt;" Collapsed="true">
+    <Position X="29.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, unsigned char&gt;" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, char&gt;" Collapsed="true">
+    <Position X="26.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, unsigned short&gt;" Collapsed="true">
+    <Position X="19.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, short&gt;" Collapsed="true">
+    <Position X="17.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, unsigned int&gt;" Collapsed="true">
+    <Position X="26.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, int&gt;" Collapsed="true">
+    <Position X="21" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, cimg_uint64&gt;" Collapsed="true">
+    <Position X="14" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, cimg_int64&gt;" Collapsed="true">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, float&gt;" Collapsed="true">
+    <Position X="31.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;signed char, double&gt;" Collapsed="true">
+    <Position X="29.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, unsigned char&gt;" Collapsed="true">
+    <Position X="28" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, signed char&gt;" Collapsed="true">
+    <Position X="26.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, unsigned short&gt;" Collapsed="true">
+    <Position X="24.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, short&gt;" Collapsed="true">
+    <Position X="22.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, unsigned int&gt;" Collapsed="true">
+    <Position X="21" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, int&gt;" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, cimg_uint64&gt;" Collapsed="true">
+    <Position X="17.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, cimg_int64&gt;" Collapsed="true">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, float&gt;" Collapsed="true">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;char, double&gt;" Collapsed="true">
+    <Position X="12.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, char&gt;" Collapsed="true">
+    <Position X="31.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, signed char&gt;" Collapsed="true">
+    <Position X="29.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, short&gt;" Collapsed="true">
+    <Position X="28" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, unsigned int&gt;" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, int&gt;" Collapsed="true">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, cimg_uint64&gt;" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, cimg_int64&gt;" Collapsed="true">
+    <Position X="17.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, float&gt;" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned short, double&gt;" Collapsed="true">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, unsigned short&gt;" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, unsigned int&gt;" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, int&gt;" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, cimg_uint64&gt;" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, cimg_int64&gt;" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, float&gt;" Collapsed="true">
+    <Position X="31.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;short, double&gt;" Collapsed="true">
+    <Position X="29.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, char&gt;" Collapsed="true">
+    <Position X="22.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, signed char&gt;" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, short&gt;" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, int&gt;" Collapsed="true">
+    <Position X="22.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, cimg_uint64&gt;" Collapsed="true">
+    <Position X="21" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, cimg_int64&gt;" Collapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, float&gt;" Collapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;unsigned int, double&gt;" Collapsed="true">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;int, unsigned int&gt;" Collapsed="true">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;int, cimg_uint64&gt;" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;int, cimg_int64&gt;" Collapsed="true">
+    <Position X="31.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;int, float&gt;" Collapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;int, double&gt;" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, char&gt;" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, signed char&gt;" Collapsed="true">
+    <Position X="26.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, short&gt;" Collapsed="true">
+    <Position X="17.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, int&gt;" Collapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, cimg_int64&gt;" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, float&gt;" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_uint64, double&gt;" Collapsed="true">
+    <Position X="31.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_int64, float&gt;" Collapsed="true">
+    <Position X="29.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;cimg_int64, double&gt;" Collapsed="true">
+    <Position X="28" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;float, double&gt;" Collapsed="true">
+    <Position X="26.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, unsigned short&gt;" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, short&gt;" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, unsigned int&gt;" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, int&gt;" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, cimg_uint64&gt;" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, cimg_int64&gt;" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, float&gt;" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset&lt;half, double&gt;" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset2&lt;t1, t2, t3&gt;" Collapsed="true">
+    <Position X="17.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::superset3&lt;t1, t2, t3, t4&gt;" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::last&lt;t1, t2&gt;" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::X11_info" Collapsed="true">
+    <Position X="28" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAIFAIAEBAAAAJAEBCAAAIAAEIAAAAAQ=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::Win32_info" Collapsed="true">
+    <Position X="26.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::Mutex_info" Collapsed="true">
+    <Position X="24.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAIAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cimg_library_suffixed::cimg::Magick_info" Collapsed="true">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CImg&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAFoABACEACAAUAEACQICABAAIAAAAQQgAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_cimg_math_parser" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJEADAgASaAAAUAQBAQhATGAIAUIB9EAABAoAAghAUI=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_streamline2d_directed" Collapsed="true">
+    <Position X="28" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_streamline3d_directed" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_streamline2d_oriented" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_streamline3d_oriented" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAIAAAAAAAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_streamline_expr" Collapsed="true">
+    <Position X="26.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAACACAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor2d_int" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor2d_float" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor2d_expr" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAEAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor3d_int" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor3d_float" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor3d_expr" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAEAAAAAAAAAAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_functor4d_int" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_cimg_error_mgr" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CImgList&lt;T&gt;" Collapsed="true">
+    <Position X="19.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAIECBBBMBCACUIAEAAESAFiAAkAkgQWwAIAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RGBColor" Collapsed="true">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAgA=</HashCode>
+      <FileName>RGBColor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SPoint" Collapsed="true">
+    <Position X="28" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>SPoint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="_cimg_error_ptr" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CImg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
